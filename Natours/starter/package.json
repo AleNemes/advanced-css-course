@@ -4,7 +4,7 @@
   "description": "Landing page",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/_main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/_main.scss css/style.css.comp.css"
   },
   "author": "Alexandra",
   "license": "ISC",
