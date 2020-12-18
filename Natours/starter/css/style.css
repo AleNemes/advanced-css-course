@@ -48,7 +48,7 @@ body {
 }
 
 .heading-primary {
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
@@ -135,7 +135,7 @@ body {
 }
 
 .btn--white {
-  background-color: #fff;
+  background-color: #000;
   color: #777;
 }
 
@@ -153,7 +153,7 @@ body {
 }
 
 .btn--white::after {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .btn:hover::after {
