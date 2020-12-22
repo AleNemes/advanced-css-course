@@ -34,6 +34,61 @@
     <title>Natours | Exciting tours for adventurous people</title>
 </head>
 <body>
+
+    <div class="navigation">
+        <input
+            type="checkbox"
+            class="navigation__checkbox"
+            id="navi-toggle"
+        >
+        <label
+            for="navi-toggle"
+            class="navigation__button"
+        >
+            <span class="navigation__icon"></span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a
+                        href=""
+                        class="navigation__link"
+                    > <span>01</span>About Natours</a>
+                </li>
+
+                <li class="navigation__item">
+                    <a
+                        href=""
+                        class="navigation__link"
+                    ><span>02</span>Your benefits</a>
+                </li>
+
+                <li class="navigation__item">
+                    <a
+                        href=""
+                        class="navigation__link"
+                    ><span>03</span>Popular tours</a>
+                </li>
+
+                <li class="navigation__item">
+                    <a
+                        href=""
+                        class="navigation__link"
+                    ><span>04</span>Stories</a>
+                </li>
+
+                <li class="navigation__item">
+                    <a
+                        href=""
+                        class="navigation__link"
+                    ><span>05</span>Book now</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <header class="header">
         <div class="header__logo-box">
             <img
@@ -56,7 +111,7 @@
         </div>
     </header>
 
-    <main class="">
+    <main>
         <section class="section-about">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
@@ -158,7 +213,10 @@
             </div>
         </section>
 
-        <section class="section-tours">
+        <section
+            class="section-tours"
+            id="section-tours"
+        >
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Most popular tours
@@ -196,7 +254,7 @@
                                 </div>
 
                                 <a
-                                    href=""
+                                    href="#popup"
                                     class="btn btn--white"
                                 >Book now</a>
                             </div>
@@ -235,7 +293,7 @@
                                 </div>
 
                                 <a
-                                    href=""
+                                    href="#popup"
                                     class="btn btn--white"
                                 >Book now</a>
                             </div>
@@ -274,12 +332,11 @@
                                 </div>
 
                                 <a
-                                    href=""
+                                    href="#popup"
                                     class="btn btn--white"
                                 >Book now</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -458,6 +515,123 @@
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <img
+                src="img/logo-green-2x.png"
+                alt="Full logo"
+                class="footer__logo"
+            >
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                            >Company</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                            >Contact us</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                            >Careers</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                            >Privacy policy</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                            >terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Built my <a
+                        href=""
+                        class="footer__link"
+                    >Jonas Schmedtmann</a>
+                    for his online course. <a
+                        href=""
+                        class="footer__link"
+                    >Advanced CSS and SASS</a> You are 100% to use this page for both personal and commercial use,
+                    but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is
+                    ofcourse highly appreciated!
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div
+        class="popup"
+        id="popup"
+    >
+        <div class="popup__content">
+            <div class="popup__left">
+                <img
+                    src="img/nat-8.jpg"
+                    alt="tour foto"
+                    class="popup__img"
+                >
+
+                <img
+                    src="img/nat-9.jpg"
+                    alt=""
+                    class="popup__img"
+                >
+            </div>
+
+            <div class="popup__right">
+                <a
+                    href="#section-tours"
+                    class="popup__close"
+                >&times;
+                </a>
+                <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important! Please read the terms before booking.</h3>
+
+                <p class="popup__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, natus perspiciatis
+                    blanditiis voluptas repellat debitis molestiae alias illo laboriosam accusantium
+                    rem id repellendus reprehenderit labore doloribus ipsum est distinctio saepe! Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Enim, natus perspiciatis
+                    blanditiis voluptas repellat debitis molestiae alias illo laboriosam accusantium
+                    rem id repellendus reprehenderit labore doloribus ipsum est distinctio saepe!
+                    amet consectetur adipisicing elit. Enim, natus perspiciatis
+                    blanditiis voluptas repellat debitis molestiae alias illo laboriosam accusantium
+                    rem id repellendus reprehenderit labore doloribus ipsum est distinctio saepe!
+                </p>
+
+                <a
+                    href="#"
+                    class="btn btn--green"
+                >Book now</a>
+            </div>
+
+        </div>
+    </div>
 
     <!-- <section class="grid-test">
         <div class="row">
